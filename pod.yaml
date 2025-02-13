@@ -1,0 +1,186 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2025-02-13T23:18:38Z"
+  labels:
+    run: xd
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:run: {}
+      f:spec:
+        f:containers:
+          k:{"name":"xd"}:
+            .: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:resources: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext: {}
+        f:terminationGracePeriodSeconds: {}
+    manager: kubectl-run
+    operation: Update
+    time: "2025-02-13T23:18:38Z"
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"PodReadyToStartContainers"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:hostIPs: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.42"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: "2025-02-13T23:48:03Z"
+  name: xd
+  namespace: default
+  resourceVersion: "2866"
+  uid: 86e82eb7-e80d-4a44-8d4f-fc9ca26f8cea
+spec:
+  containers:
+  - image: nginx
+    imagePullPolicy: Always
+    name: xd
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-8j4jc
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: emiliano043
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: kube-api-access-8j4jc
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-13T23:48:03Z"
+    status: "True"
+    type: PodReadyToStartContainers
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-13T23:18:38Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-13T23:48:03Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-13T23:48:03Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-13T23:18:38Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: docker://2f9c87338929de848ed93cedc2acccf98f54bcd18f9bc4b0eb24fe2599e8550e
+    image: nginx:latest
+    imageID: docker-pullable://nginx@sha256:91734281c0ebfc6f1aea979cffeed5079cfe786228a71cc6f1f46a228cde6e34
+    lastState:
+      terminated:
+        containerID: docker://2edfa358f0c16aea235cc408b513db96f9a8934e36b763621d6efd940a4f609f
+        exitCode: 255
+        finishedAt: "2025-02-13T23:47:42Z"
+        reason: Error
+        startedAt: "2025-02-13T23:39:32Z"
+    name: xd
+    ready: true
+    restartCount: 3
+    started: true
+    state:
+      running:
+        startedAt: "2025-02-13T23:48:03Z"
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-8j4jc
+      readOnly: true
+      recursiveReadOnly: Disabled
+  hostIP: 192.168.127.2
+  hostIPs:
+  - ip: 192.168.127.2
+  phase: Running
+  podIP: 10.42.0.42
+  podIPs:
+  - ip: 10.42.0.42
+  qosClass: BestEffort
+  startTime: "2025-02-13T23:18:38Z"
