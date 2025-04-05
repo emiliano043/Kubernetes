@@ -1,0 +1,11 @@
+name: Ejemplo de variable en repo
+
+on:
+  workflow_dispatch
+
+jobs:
+  show-repo-var:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar valor de la variable del repositorio
+        run: echo "Hola $MY_VAR!"
