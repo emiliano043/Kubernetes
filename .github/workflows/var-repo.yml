@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar valor de la variable del repositorio
-        run: echo "Hola $MY_VAR!"
+        run: echo "Hola $env.MY_VAR!"
