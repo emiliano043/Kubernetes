@@ -20,13 +20,13 @@ jobs:
         run: dotnet restore ./netcore/ExploringActions/ExploringActions.sln
 
       - name: Build the solution
-        run: dotnet build ./netcore/ExploringSoft/ExploringActions.sln --configuration Release --no-restore
+        run: dotnet build ./netcore/ExploringActions/ExploringActions.sln --configuration Release --no-restore
 
       - name: Run unit tests with report
-        run: dotnet test ./netcore/ExploringSoft/TestExploringActions/TestExploringActions.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
+        run: dotnet test ./netcore/ExploringActions/TestExploringActions/TestExploringActions.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
         
       - name: Upload test results
         uses: actions/upload-artifact@v4
         with:
           name: TestResults
-          path: ./netcore/ExploringSoft/TestExploringActions/TestResults/TestResults.trx
+          path: ./netcore/ExploringActions/TestExploringActions/TestResults/TestResults.trx
