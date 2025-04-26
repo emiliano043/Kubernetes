@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\TestExploringActions.csproj": {}
+    "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\TestExploringActions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\ExploringActions.csproj": {
+    "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\ExploringActions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\ExploringActions.csproj",
+        "projectUniqueName": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\ExploringActions.csproj",
         "projectName": "ExploringActions",
-        "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\ExploringActions.csproj",
+        "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\ExploringActions.csproj",
         "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\obj\\",
+        "outputPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\TestExploringActions.csproj": {
+    "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\TestExploringActions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\TestExploringActions.csproj",
+        "projectUniqueName": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\TestExploringActions.csproj",
         "projectName": "TestExploringActions",
-        "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\TestExploringActions.csproj",
+        "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\TestExploringActions.csproj",
         "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\obj\\",
+        "outputPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\ExploringActions.csproj": {
-                "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\ExploringActions.csproj"
+              "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\ExploringActions.csproj": {
+                "projectPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\ExploringActions.csproj"
               }
             }
           }
