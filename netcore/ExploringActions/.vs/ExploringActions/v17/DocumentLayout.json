@@ -1,12 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\",
+  "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00DC7DB9-C04F-4C64-9E8D-DEADAAB94BA9}|..\\TestExploringActions\\TestExploringActions.csproj|c:\\users\\emili\\downloads\\kubernetes y monitoreo\\testexploringactions\\weatherforecastcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1928350A-E332-4E51-88C3-B799BAB9D195}|ExploringActions.csproj|c:\\users\\emili\\downloads\\kubernetes-github\\kubernetes\\netcore\\exploringactions\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1928350A-E332-4E51-88C3-B799BAB9D195}|ExploringActions.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1928350A-E332-4E51-88C3-B799BAB9D195}|ExploringActions.csproj|c:\\users\\emili\\downloads\\kubernetes y monitoreo\\exploringactions\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1928350A-E332-4E51-88C3-B799BAB9D195}|ExploringActions.csproj|c:\\users\\emili\\downloads\\kubernetes-github\\kubernetes\\netcore\\exploringactions\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1928350A-E332-4E51-88C3-B799BAB9D195}|ExploringActions.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +26,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
-              "RelativeDocumentMoniker": "..\\TestExploringActions\\WeatherForecastControllerTest.cs",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
-              "RelativeToolTip": "..\\TestExploringActions\\WeatherForecastControllerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T23:01:24.189Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T23:06:04.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WeatherForecastControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Kubernetes y monitoreo\\TestExploringActions\\WeatherForecastControllerTest.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T23:01:24.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\ExploringActions\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\ExploringActions\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T22:40:59.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T22:40:59.15Z"
             }
           ]
         }

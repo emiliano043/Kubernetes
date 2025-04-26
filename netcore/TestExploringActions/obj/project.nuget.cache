@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZGoPe5otgA=",
+  "dgSpecHash": "8nDzFNhcOj4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emili\\Downloads\\Kubernetes y monitoreo\\TestExploringActions\\TestExploringActions.csproj",
+  "projectFilePath": "C:\\Users\\emili\\Downloads\\Kubernetes-GitHub\\Kubernetes\\netcore\\TestExploringActions\\TestExploringActions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emili\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\emili\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
